@@ -9,6 +9,8 @@ export function external(input) {
 		name: "rollup-plugin-externals",
 		// workaround for Vite
 		enforce: "pre",
+		apply: "build",
+
 		resolveId(id) {
 			if (record.has(id)) {
 				return { id: "\0" + id, syntheticNamedExports: "default" };
