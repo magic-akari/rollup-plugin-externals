@@ -2,7 +2,7 @@
  * @param {Record<string,string>} input
  * @return {import('rollup').Plugin}
  */
-export function external(input) {
+export default function externals(input) {
 	const record = new Map(Object.entries(input));
 
 	return {
@@ -27,3 +27,5 @@ export function external(input) {
 		},
 	};
 }
+
+export { externals };

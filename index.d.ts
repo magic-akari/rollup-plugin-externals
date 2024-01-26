@@ -1,2 +1,3 @@
 import type { Plugin } from 'rollup';
-export function external(input: Record<string, string>): Plugin;
+export default function externals(input: Record<string, string>): Plugin;
+export { externals }

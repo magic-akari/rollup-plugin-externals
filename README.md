@@ -12,11 +12,11 @@ pnpm i -D rollup-plugin-externals
 
 ```JavaScript
 import { defineConfig } from "rollup";
-import { external } from "rollup-plugin-externals";
+import { externals } from "rollup-plugin-externals";
 
 export default defineConfig({
     plugins:[
-        external({
+        externals({
             "react": "React",
             "react-dom": "ReactDOM",
         })
