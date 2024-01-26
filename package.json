@@ -1,6 +1,6 @@
 {
 	"name": "rollup-plugin-externals",
-	"version": "0.0.0-dev",
+	"version": "0.0.0",
 	"description": "externals plugin for rollup",
 	"main": "index.js",
 	"type": "module",
