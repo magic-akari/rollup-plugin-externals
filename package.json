@@ -7,6 +7,14 @@
 	"keywords": [
 		"rollup-plugin"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/magic-akari/rollup-plugin-externals"
+	},
+	"homepage": "https://github.com/magic-akari/rollup-plugin-externals",
+	"bugs": {
+		"url": "https://github.com/magic-akari/rollup-plugin-externals/issues"
+	},
 	"author": "magic-akari <akari.ccino@gmail.com>",
 	"license": "MIT",
 	"devDependencies": {
